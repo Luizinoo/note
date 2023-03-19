@@ -32,6 +32,7 @@ function Taskform({handleSubmit, btnText, taskData}){
             handleOnChange={handleChange}
             value={task.description ? task.description : ''}
             />
+            <Input done={false}/>
             <SubmitButton text={btnText} />
         </form>
     )

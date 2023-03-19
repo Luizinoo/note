@@ -1,24 +1,19 @@
 {
   "tasks": [
     {
-      "name": "tirar Lixo",
-      "description": "se não mamae ficara brava",
-      "id": 1
-    },
-    {
-      "name": "Estudar",
-      "description": "para tirar boas notas temos qu estudar",
-      "id": 2
-    },
-    {
-      "name": "Descançar",
-      "description": "para ter mais saude e passar bem o dia",
-      "id": 3
+      "name": "vamos caminhar",
+      "description": "faz bem a saude",
+      "id": 5
     },
     {
       "name": "limpar a casa",
       "description": "a pedido da mamae",
-      "id": 4
+      "id": 6
+    },
+    {
+      "name": "tirar Lixo",
+      "description": "tirar o lixa para a mamae não ficar brava",
+      "id": 7
     }
   ]
 }
