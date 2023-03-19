@@ -1,19 +1,9 @@
 {
   "tasks": [
     {
-      "name": "vamos caminhar",
-      "description": "faz bem a saude",
-      "id": 5
-    },
-    {
-      "name": "limpar a casa",
-      "description": "a pedido da mamae",
-      "id": 6
-    },
-    {
-      "name": "tirar Lixo",
-      "description": "tirar o lixa para a mamae não ficar brava",
-      "id": 7
+      "name": "fazer exercicio",
+      "description": "para ter mais saude e passar bem o dia",
+      "id": 1
     }
   ]
 }
