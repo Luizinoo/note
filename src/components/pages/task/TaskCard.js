@@ -1,8 +1,8 @@
 import styles from './TaskCard.module.css'
-import {BsPencil, BsFillTrashFill} from 'react-icons/bs'
-import {Link} from 'react-router-dom'
+import { BsPencil, BsFillTrashFill, BsBookmarkCheckFill, BsBookmarkCheck } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
-function TaskCard({id, name, description, handleRemove}) {
+function TaskCard({ id, name, description, handleRemove }) {
     const remove = (e) => {
         e.preventDefault()
         handleRemove(id)
@@ -15,11 +15,12 @@ function TaskCard({id, name, description, handleRemove}) {
             </p>
             <div className={styles.task_card_actions}>
                 <Link to={`/task/${id}`}>
-                    <BsPencil/> Editar
+                    <BsPencil /> Editar
                 </Link>
                 <button onClick={remove}>
                     <BsFillTrashFill /> Excluir
                 </button>
+                <input type="checkbox" className={styles.task_card_check}></input>
             </div>
         </div>
     )

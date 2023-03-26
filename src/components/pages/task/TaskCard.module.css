@@ -1,4 +1,4 @@
-.task_card{
+.task_card {
     padding: 1em;
     border: 1px solid #7a7a7a;
     border-radius: 5px;
@@ -6,7 +6,7 @@
     margin: 0.5%;
 }
 
-.task_card h4{
+.task_card h4 {
     background-color: #222;
     color: #337aff;
     padding: 0.4em;
@@ -14,23 +14,23 @@
     font-size: 1.3em;
 }
 
-.task_card p{
+.task_card p {
     color: #7a7a7a;
     margin-bottom: 1em;
 }
 
-.task_card p span{
+.task_card p span {
     font-weight: bold;
 }
 
-.task_card_actions{
+.task_card_actions {
     margin-top: 1.2em;
     display: flex;
     align-items: center;
 }
 
 .task_card_actions a,
-.task_card_actions button{
+.task_card_actions button {
     text-decoration: none;
     border: none;
     background-color: #FFF;
@@ -46,12 +46,18 @@
     transition: 0.5s;
 }
 
-.task_card_actions svg{
+.task_card_actions svg {
     margin-right: 0.5em;
 }
 
 .task_card_actions a:hover,
-.task_card_actions button:hover{
+.task_card_actions button:hover {
     background-color: #222;
     color: #337aff;
+}
+
+.task_card_check{
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
 }

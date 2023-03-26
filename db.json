@@ -1,9 +1,19 @@
 {
   "tasks": [
     {
-      "name": "fazer exercicio",
+      "name": "fazer janta",
       "description": "para ter mais saude e passar bem o dia",
       "id": 1
+    },
+    {
+      "name": "cagar",
+      "description": "tem que esvaziar",
+      "id": 2
+    },
+    {
+      "name": "tirar Lixo",
+      "description": "se não mamae ficara brava",
+      "id": 3
     }
   ]
 }
