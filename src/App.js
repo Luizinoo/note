@@ -4,7 +4,6 @@ import Task from './components/pages/Task'
 import Newtask from './components/pages/Newtask'
 import Container from './components/layout/Container'
 import Navbar from './components/layout/Navbar'
-// import Footer from './components/layout/Footer'
 import Tasks from './components/pages/Tasks'
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
           <Route path='/Task/:id' element={<Tasks />} />
         </Routes>
       </Container>
-      {/* <Footer /> */}
     </Router>
   )
 }
